@@ -3,9 +3,10 @@ import NavBar from './NavBar';
 
 function Header() {
   return (
-    <header className='max-w-[1440px] mx-auto  flex items-center justify-between px-6'>
-      <Logo />
-      <NavBar />
+   
+    <header className=' mx-auto  flex items-center justify-between px-8 shadow-md bg-white'>
+       <Logo />
+       <NavBar /> 
     </header>
   );
 }

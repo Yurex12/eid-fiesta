@@ -5,11 +5,19 @@
 @tailwind utilities;
 
 body {
-  @apply text-[#333333] font-poppins text-[12px] md:text-[20px];
+  @apply text-[#333333] font-poppins text-[12px] md:text-[20px] w-screen;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .btn {
   @apply bg-gradient-to-br from-[#f7983a] to-[#e53235];
+}
+
+.container {
+  @apply max-w-screen-xl px-10;
 }
 
 .sidebar {
